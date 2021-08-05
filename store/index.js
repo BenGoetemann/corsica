@@ -330,6 +330,7 @@ const createStore = () => {
         state.menu.pasta.carbonara.ingredients = "-"
 
         state.menu.grillades.section = "Grill"
+        state.menu.grillades.info = "All our grilled meats are served with freshly grilled vegetables or chips"
 
         state.menu.grillades.entrecote.title = "Entrecote of beef"
 
@@ -446,6 +447,7 @@ const createStore = () => {
         state.menu.pasta.carbonara.title = "Linguini con salsa carbonara"
 
         state.menu.grillades.section = "A la parrilla"
+        state.menu.grillades.info = "Todas nuestras carnes a la parrilla se sirven con verduras frescas a la parrilla o con patatas fritas"
 
         state.menu.grillades.entrecote.title = "Entrecot de ternera"
 
@@ -562,6 +564,7 @@ const createStore = () => {
         state.menu.grillades.section = "Gegrilltes"
 
         state.menu.grillades.entrecote.title = "Entrecote vom Rind"
+        state.menu.grillades.info = "Alle unsere gegrillten Fleischsorten werden mit frisch gegrilltem Gemüse oder Pommes serviert"
 
         state.menu.grillades.chimichurri.title = "Frisches Thunfischsteak 'Chimichurri' oder Provençale"
         state.menu.grillades.chimichurri.ingredients = "Soße wird als Beilage serviert"
@@ -673,6 +676,7 @@ const createStore = () => {
         state.menu.pasta.carbonara.title = "Linguine alla carbonara"
 
         state.menu.grillades.section = "Grigliata"
+        state.menu.grillades.info = "Tutte le nostre carni alla griglia sono servite con verdure o patatine fritte appena grigliate"
 
         state.menu.grillades.entrecote.title = "Entrecote di manzo"
 
@@ -784,6 +788,7 @@ const createStore = () => {
         state.menu.pasta.carbonara.title = "Linguini à la carbonara"
 
         state.menu.grillades.section = "Grillades"
+        state.menu.grillades.info = "Toutes nos grillades sont servies avec des légumes frais grillés ou frites"
 
         state.menu.grillades.entrecote.title = "Entrecôte de boeuf"
 
