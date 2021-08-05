@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg">
     <Navigation />
     <Nuxt />
   </div>
@@ -18,16 +18,11 @@ export default {
 
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500&display=swap');
+
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: Poppins, "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -42,6 +37,11 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+
+.bg{
+    background-color: #F8F8F8;
 }
 
 .button--green {
@@ -72,4 +72,23 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+p {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+
+h3 {
+  font-size: 20px;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
 </style>
