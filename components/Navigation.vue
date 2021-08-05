@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="dark">
+    <b-navbar toggleable="lg" type="light" variant="light">
       <b-navbar-brand href="#">NavBar</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -10,14 +10,27 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#starters">{{ $store.state.menu.entrees.section }}</b-nav-item>
-          <b-nav-item href="#dishes">{{ $store.state.menu.plats.section }}</b-nav-item>
-          <b-nav-item href="#pasta">{{ $store.state.menu.pasta.section }}</b-nav-item>
-                    <b-nav-item href="#grill">{{ $store.state.menu.grillades.section }}</b-nav-item>
-<b-nav-item href="#pizza">{{ $store.state.menu.pizza.section }}</b-nav-item>
-<b-nav-item href="#kids-menu">{{ $store.state.menu.enfant.section }}</b-nav-item>
-<b-nav-item href="#desserts">{{ $store.state.menu.desserts.section }}</b-nav-item>
-
+          <b-nav-item href="#starters">{{
+            $store.state.menu.entrees.section
+          }}</b-nav-item>
+          <b-nav-item href="#dishes">{{
+            $store.state.menu.plats.section
+          }}</b-nav-item>
+          <b-nav-item href="#pasta">{{
+            $store.state.menu.pasta.section
+          }}</b-nav-item>
+          <b-nav-item href="#grill">{{
+            $store.state.menu.grillades.section
+          }}</b-nav-item>
+          <b-nav-item href="#pizza">{{
+            $store.state.menu.pizza.section
+          }}</b-nav-item>
+          <b-nav-item href="#kids-menu">{{
+            $store.state.menu.enfant.section
+          }}</b-nav-item>
+          <b-nav-item href="#desserts">{{
+            $store.state.menu.desserts.section
+          }}</b-nav-item>
 
           <div class="languages">
             <b-nav-item @click="$store.commit('en')" class="flag" href="#"
@@ -49,12 +62,20 @@ export default {
 </script>
 
 <style>
-.navbar.navbar-dark.bg-dark {
-  background-color: white !important;
+
+.navbar.navbar-light.bg-light {
+  background-color: rgb(255, 255, 255) !important;
+  
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: black !important;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-item {
+  display: flex !important;
+  align-items: center;
 }
 
 .languages {
@@ -63,7 +84,7 @@ export default {
 }
 
 .flag {
-  margin-right: 3px;
-  font-size: 24px;
+  margin-right: 15px;
+  font-size: 30px;
 }
 </style>

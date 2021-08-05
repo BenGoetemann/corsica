@@ -8,31 +8,31 @@ const createStore = () => {
           section: "Entrées",
           goatcheesesalad: {
             title: "Salade de chèvre chaud",
-            art: "🥩",
+            art: " ",
             ingredients: "en feuille de brick, lardons, oignons sautés ",
             price: "14,50 €"
           },
           cuttlefishsalad: {
             title: "Salade de seiche",
-            art: "🐟",
+            art: " ",
             ingredients: "aux olives noires et vinaigrette aux herbes du pays",
             price: "15,00 €"
           },
           tomatosalad: {
             title: "Salade de tomate « Coeur de boeuf »",
-            art: "🥩",
+            art: " ",
             ingredients: "à la Burrata, pesto de basilic",
             price: "16,00 €"
           },
           caesarsalad: {
             title: "Salade César",
-            art: "🥩",
+            art: " ",
             ingredients: "au blanc de poulet, croutons, parmesan ",
             price: "16,00 €"
           },
           tatar: {
             title: "Tartare de thon frais",
-            art: "🐟",
+            art: " ",
             ingredients: "aux épices du pays, vinaigrette orientale",
             price: "14,00 €"
           },
@@ -41,31 +41,31 @@ const createStore = () => {
           section: "Plats",
           saute: {
             title: "Sauté de veau corse à la Myrte",
-            art: "🥩",
+            art: " ",
             ingredients: "pomme mousseline à la « truffe d'été »",
             price: "19,00 €"
           },
           filet: {
             title: "Filet de Saint-Pierre",
-            art: "🥩",
+            art: " ",
             ingredients: "pomme écrasées à la ciboulette, beurre blanc citronné, fleurettes de brocoli",
             price: "20,00 €"
           },
           moules: {
             title: "Moules fraîche de 'Diana'",
-            art: "🐟",
+            art: " ",
             ingredients: "pomme écrasées à la ciboulette, beurre blanc citronné, fleurettes de brocoli",
             price: "14,50 €"
           },
           lasagne: {
             title: "Lasagne maison",
-            art: "🥩",
+            art: " ",
             ingredients: "sur sauce tomate",
             price: "15,00 €"
           },
           saumon: {
             title: "Pavé de saumon",
-            art: "🐟",
+            art: " ",
             ingredients: "sauce marinière, pomme écrasées à la ciboulette, fleurettes de brocoli ",
             price: "19,00 €"
           },
@@ -80,13 +80,13 @@ const createStore = () => {
           },
           fruitsdemer: {
             title: "Linguini aux fruits de mer à la sauce tomate",
-            art: "🐟",
+            art: " ",
             ingredients: "Crevettes, Vonzgole, Moles, Noix de Saint-Jacques",
             price: "18,50 €"
           },
           carbonara: {
             title: "Linguini à la carbonara",
-            art: "🥩",
+            art: " ",
             ingredients: "-",
             price: "16,00 €"
           },
@@ -96,37 +96,37 @@ const createStore = () => {
           info: "Toutes nos grillades sont servies avec des légumes frais grillés ou frites",
           entrecote: {
             title: "Entrecôte de boeuf",
-            art: "🥩",
+            art: " ",
             ingredients: "-",
             price: "21,00 €"
           },
           chimichurri: {
             title: "Pavé de thon frais « Chimichurri u Provençale»",
-            art: "🐟",
+            art: " ",
             ingredients: "Sauce servie à part",
             price: "18,00 €"
           },
           loup: {
             title: "Loup grillé",
-            art: "🐟",
+            art: " ",
             ingredients: "aux herbes",
             price: "22,00 €"
           },
           coquelet: {
             title: "Coquelet grillé entier",
-            art: "🥩",
+            art: " ",
             ingredients: "en crapaudine",
             price: "15,00 €"
           },
           brochette: {
             title: "Brochette de grosses crevettes",
-            art: "🐟",
+            art: " ",
             ingredients: "en marinade",
             price: "18,50 €"
           },
           gigot: {
             title: "Brochette de gigot d'agneau",
-            art: "🐟",
+            art: " ",
             ingredients: "grillée au thym",
             price: "19,00 €"
           },
@@ -153,19 +153,19 @@ const createStore = () => {
           },
           hawaii: {
             title: "Hawaïenne",
-            art: "🥩",
+            art: " ",
             ingredients: "Tomate, Mozzarella, Jambon, Ananas",
             price: "9,50 €"
           },
           napolitana: {
             title: "Napolitana",
-            art: "🐟",
+            art: " ",
             ingredients: "Tomate, Mozzarella, Câpres, Anchois. Olives noires",
             price: "10,50 €"
           },
           regina: {
             title: "Regina",
-            art: "🥩",
+            art: " ",
             ingredients: "Tomate, Mozzarella, Jambon, Champignons, Olives noires",
             price: "10,00 €"
           },
@@ -183,31 +183,31 @@ const createStore = () => {
           },
           diavolo: {
             title: "Diavolo",
-            art: "🥩",
+            art: " ",
             ingredients: "Tomate, Mozzarella, Olives noires, Chorizo",
             price: "12,00 €"
           },
           capricciosa: {
             title: "Capricciosa",
-            art: "🥩",
+            art: " ",
             ingredients: "Tomate, Mozzarella, Jambon, Champignons, Olives noires, Chorizo",
             price: "12,50 €"
           },
           burrata: {
             title: "Burrata",
-            art: "🥩",
+            art: " ",
             ingredients: "Tomate, Mozzarella, Roquette, Tomates cerise, Burrata",
             price: "14,00 €"
           },
           pescatore: {
             title: "Pescatore",
-            art: "🐟",
+            art: " ",
             ingredients: "Tomate, Mozzarella, Thon, Pepperoni, Olives noires",
             price: "12,00 €"
           },
           fruttidimare: {
             title: "Frutti di Mare",
-            art: "🐟",
+            art: " ",
             ingredients: "Tomate, Mozzarella, Fruits de mer, Olives noires",
             price: "14,00 €"
           },
@@ -228,13 +228,13 @@ const createStore = () => {
           },
           steak: {
             title: "Steak haché frites",
-            art: "🥩",
+            art: " ",
             ingredients: "-",
             price: "7,50 €"
           },
           nuggets: {
             title: "Nuggets de poulet frites",
-            art: "🥩",
+            art: " ",
             ingredients: "-",
             price: "7,00 €"
           }
