@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="light" variant="light">
-      <b-navbar-brand class="brand" href="#">A Conca Marina</b-navbar-brand>
+      <b-navbar-brand class="brand" href="#">Conca Marina</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
