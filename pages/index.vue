@@ -12,9 +12,14 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a
             quibusdam pariatur maxime cupiditate placeat quas nulla, quia
             numquam sed, officiis quam suscipit soluta? Rerum et accusamus
-            placeat quas recusandae.
+            placeat quas recusandae. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ex a quibusdam pariatur maxime cupiditate placeat
+            quas nulla, quia numquam sed, officiis quam suscipit soluta? Rerum
+            et accusamus placeat quas recusandae.
           </p>
-          <button class="btn"><nuxt-link class="menu-link" to="/card">Menu</nuxt-link></button>
+          <button class="btn">
+            <nuxt-link class="menu-link" to="/card">Menu</nuxt-link>
+          </button>
         </div>
       </div>
     </div>
@@ -26,7 +31,7 @@ export default {};
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Style+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Style+Script&display=swap");
 
 .responsive-background {
   background-image: url("~assets/images/background-2.jpeg");
@@ -78,7 +83,7 @@ export default {};
 }
 
 .claude {
-  font-family: 'Fuggles', cursive;
+  font-family: "Fuggles", cursive;
   font-size: 2rem;
   margin: 0;
 }
@@ -90,6 +95,6 @@ export default {};
 }
 
 .menu-link {
-  color: white
+  color: white;
 }
 </style>
