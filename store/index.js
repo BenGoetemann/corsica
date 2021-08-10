@@ -40,7 +40,7 @@ const createStore = () => {
         plats: {
           section: "Plats",
           saute: {
-            title: "Sauté de veau corse à la Myrte",
+            title: "Sauté de veau à la Myrte",
             art: " ",
             ingredients: "pomme mousseline à la « truffe d'été »",
             price: "19,00 €"
@@ -652,7 +652,7 @@ const createStore = () => {
         state.menu.plats.section = "Plats"
 
 
-        state.menu.plats.saute.title = "Sauté de veau corse à la Myrte"
+        state.menu.plats.saute.title = "Sauté de veau à la Myrte"
         state.menu.plats.saute.ingredients = "pomme mousseline à la « truffe d'été »"
 
         state.menu.plats.filet.title = "Filet de Saint-Pierre"

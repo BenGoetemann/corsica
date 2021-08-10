@@ -1,7 +1,15 @@
 <template>
   <div>
-      <Navigation />
+    <Navigation />
     <div class="container">
+      <div class="languages">
+        <div @click="$store.commit('en')" class="flag" href="#">🇬🇧</div>
+        <div @click="$store.commit('fr')" class="flag" href="#">🇫🇷</div>
+        <div @click="$store.commit('it')" class="flag" href="#">🇮🇹</div>
+        <!-- <b-nav-item @click="$store.commit('de')" class="flag" href="#"
+              >🇩🇪</b-nav-item
+            > -->
+      </div>
       <section id="starters">
         <h2>{{ $store.state.menu.entrees.section }}</h2>
         <Card
@@ -331,5 +339,14 @@ export default {
 section {
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+.languages {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
 }
 </style>

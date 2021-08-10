@@ -84,8 +84,8 @@ export default {};
 }
 
 .btn {
-  width: 100px;
-  height: 40px;
+  width: 120px;
+  height: 50px;
   background: rgb(90, 164, 255);
 }
 

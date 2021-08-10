@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="light" variant="light">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+      <b-navbar-brand class="brand" href="#">A Conca Marina</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -32,7 +32,7 @@
             $store.state.menu.desserts.section
           }}</b-nav-item>
 
-          <div class="languages">
+          <!-- <div class="languages">
             <b-nav-item @click="$store.commit('en')" class="flag" href="#"
               >🇬🇧</b-nav-item
             >
@@ -42,10 +42,10 @@
             <b-nav-item @click="$store.commit('it')" class="flag" href="#"
               >🇮🇹</b-nav-item
             >
-            <!-- <b-nav-item @click="$store.commit('de')" class="flag" href="#"
+            <b-nav-item @click="$store.commit('de')" class="flag" href="#"
               >🇩🇪</b-nav-item
-            > -->
-          </div>
+            >
+          </div> -->
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -59,6 +59,8 @@ export default {
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Style+Script&display=swap');
 
 .navbar.navbar-light.bg-light {
   background-color: rgb(255, 255, 255) !important;
