@@ -61,14 +61,14 @@ export default {};
 }
 
 .callto {
-  width: 90vw;
-  height: 93vh;
+  width: 90%;
+  height: 93%;
   background: rgba(255, 255, 255, 0.899);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding: 10%;
+  padding: 8%;
   text-align: center;
 }
 
