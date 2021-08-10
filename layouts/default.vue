@@ -1,6 +1,5 @@
 <template>
   <div class="bg">
-    <Navigation />
     <Nuxt />
   </div>
 </template>
