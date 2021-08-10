@@ -52,15 +52,15 @@ const createStore = () => {
             price: "20,00 €"
           },
           moules: {
-            title: "Moules fraîche de 'Diana'",
+            title: "Moules fraîche",
             art: " ",
-            ingredients: "pomme écrasées à la ciboulette, beurre blanc citronné, fleurettes de brocoli",
+            ingredients: "Marinière ou crème à la tome Corse",
             price: "14,50 €"
           },
           lasagne: {
-            title: "Lasagne maison",
+            title: "Lasagne bolognaise",
             art: " ",
-            ingredients: "sur sauce tomate",
+            ingredients: " ",
             price: "15,00 €"
           },
           saumon: {
@@ -73,9 +73,9 @@ const createStore = () => {
         pasta: {
           section: "Pâtes « Rummo » ",
           truffe: {
-            title: "Linguini à la crème de Truffe d'été",
+            title: "Linguini à la crème de Truffes/Champignons",
             art: "🌱",
-            ingredients: "-",
+            ingredients: " ",
             price: "17,00 €"
           },
           fruitsdemer: {
@@ -87,7 +87,7 @@ const createStore = () => {
           carbonara: {
             title: "Linguini à la carbonara",
             art: " ",
-            ingredients: "-",
+            ingredients: " ",
             price: "16,00 €"
           },
         },
@@ -97,25 +97,25 @@ const createStore = () => {
           entrecote: {
             title: "Entrecôte de boeuf",
             art: " ",
-            ingredients: "-",
+            ingredients: " ",
             price: "21,00 €"
           },
           chimichurri: {
-            title: "Pavé de thon frais « Chimichurri u Provençale»",
+            title: "Pavé de thon frais « Chimichurri » ou Provençale",
             art: " ",
             ingredients: "Sauce servie à part",
             price: "18,00 €"
           },
           loup: {
-            title: "Loup grillé",
+            title: "Loup grillé aux herbes",
             art: " ",
-            ingredients: "aux herbes",
+            ingredients: " ",
             price: "22,00 €"
           },
           coquelet: {
-            title: "Coquelet grillé entier",
+            title: "Coquelet grillé entier en crapaudine",
             art: " ",
-            ingredients: "en crapaudine",
+            ingredients: " ",
             price: "15,00 €"
           },
           brochette: {
@@ -139,7 +139,7 @@ const createStore = () => {
           sauce: {
             title: "Sauce en supplément poivre ou Tome Corse",
             art: "🌱",
-            ingredients: "-",
+            ingredients: " ",
             price: "3,50 €"
           },
         },
@@ -214,7 +214,7 @@ const createStore = () => {
           jeanclaude: {
             title: "Jean Claude",
             art: "🌱",
-            ingredients: "Crème, Tome Corse, Mozzarella, Œuf, Truffe d'été",
+            ingredients: "Crème, Tome Corse, Mozzarella, Œuf, Crème de Truffes/Champignons",
             price: "14,50 €"
           },
         },
@@ -223,58 +223,58 @@ const createStore = () => {
           beurrenature: {
             title: "Pâtes au beurre nature",
             art: "🌱",
-            ingredients: "-",
+            ingredients: " ",
             price: "4,50 €"
           },
           steak: {
             title: "Steak haché frites",
             art: " ",
-            ingredients: "-",
+            ingredients: " ",
             price: "7,50 €"
           },
           nuggets: {
             title: "Nuggets de poulet frites",
             art: " ",
-            ingredients: "-",
+            ingredients: " ",
             price: "7,00 €"
           }
         },
         desserts: {
-          section: "Desserts Maison",
+          section: "Desserts",
           tartetatin: {
             title: "Tarte Tatin, chantilly ou crème anglaise",
             art: "🌱",
-            ingredients: "-",
+            ingredients: " ",
             price: "7,00 €"
           },
           tiramisu: {
             title: "Tiramisu",
             art: "🌱",
-            ingredients: "-",
+            ingredients: " ",
             price: "6,50 €"
           },
           brownie: {
             title: "Brownie au chocolat et noix de pécan",
             art: "🌱",
-            ingredients: "-",
+            ingredients: " ",
             price: "7,50 €"
           },
           creme: {
             title: "Crème brulée",
             art: "🌱",
-            ingredients: "-",
+            ingredients: " ",
             price: "6,50 €"
           },
           tartecitron: {
             title: "Tarte citron meringuée",
             art: "🌱",
-            ingredients: "-",
+            ingredients: " ",
             price: "7,00 €"
           },
           pizzanutella: {
             title: "Pizza Nutella",
             art: "🌱",
-            ingredients: "-",
+            ingredients: " ",
             price: "8,00 €"
           },
         }
@@ -327,7 +327,7 @@ const createStore = () => {
         state.menu.pasta.fruitsdemer.ingredients = "Shrimps, Vonzgole, Moles, Scallops"
 
         state.menu.pasta.carbonara.title = "Linguini with carbonara sauce "
-        state.menu.pasta.carbonara.ingredients = "-"
+        state.menu.pasta.carbonara.ingredients = " "
 
         state.menu.grillades.section = "Grill"
         state.menu.grillades.info = "All our grilled meats are served with freshly grilled vegetables or chips"
@@ -338,10 +338,10 @@ const createStore = () => {
         state.menu.grillades.chimichurri.ingredients = "Sauce served on the side"
 
         state.menu.grillades.loup.title = "Grilled bass with herbs"
-        state.menu.grillades.loup.ingredients = "-"
+        state.menu.grillades.loup.ingredients = " "
 
         state.menu.grillades.coquelet.title = "Whole grilled cockerel in a shell"
-        state.menu.grillades.coquelet.ingredients = "-"
+        state.menu.grillades.coquelet.ingredients = " "
 
         state.menu.grillades.brochette.title = "Skewer of large prawns in marinade"
         state.menu.grillades.brochette.ingredients = "served separately"
@@ -352,7 +352,9 @@ const createStore = () => {
         state.menu.grillades.assiette.title = "Vegetarian plate"
         state.menu.grillades.assiette.ingredients = "Assortment of fresh grilled vegetables of the day and choice of potatoes"
 
-        state.menu.grillades.sauce.title = "Extra sauce with pepper or Corsican Tome"
+        state.menu.grillades.sauce.title = "Extra sauce"
+        state.menu.grillades.sauce.ingredients = "with pepper or Corsican Tome"
+
 
         state.menu.pizza.margherita.ingredients = "Tomato, Mozzarella"
 
@@ -395,121 +397,6 @@ const createStore = () => {
         state.menu.desserts.creme.title = "Crème brulée"
 
         state.menu.desserts.tartecitron.title = "Lemon meringue pie"
-
-        state.menu.desserts.pizzanutella.title = "Pizza Nutella"
-
-      },
-      es(state) {
-
-        state.menu.entrees.section = "Arrancadores"
-
-
-        state.menu.entrees.goatcheesesalad.title = "Ensalada tibia de queso de cabra"
-        state.menu.entrees.goatcheesesalad.ingredients = "en hojaldre, lardones, cebollas salteadas"
-
-        state.menu.entrees.cuttlefishsalad.title = "Ensalada de pulpo"
-        state.menu.entrees.cuttlefishsalad.ingredients = "con aceitunas negras y vinagreta de hierbas locales"
-
-        state.menu.entrees.tomatosalad.title = "Ensalada de tomate 'corazón de ternera'"
-        state.menu.entrees.tomatosalad.ingredients = "on queso burrata, pesto de albahaca"
-        
-        state.menu.entrees.caesarsalad.title = "Ensalada César"
-        state.menu.entrees.caesarsalad.ingredients = "con pechuga de pollo, picatostes y parmesano"
-
-        state.menu.entrees.tatar.title = "Tartar de atún fresco"
-        state.menu.entrees.tatar.ingredients = "con especias locales, aderezo oriental"
-
-        state.menu.plats.section = "Platos principales"
-
-
-        state.menu.plats.saute.title = "Salteado de ternera corsa"
-        state.menu.plats.saute.ingredients = "con mirto, muselina de manzana con 'trufa de verano'"
-
-        state.menu.plats.filet.title = "Filete de Saint-Pierre"
-        state.menu.plats.filet.ingredients = "manzana triturada con cebollino, mantequilla de limón, floretes de brócoli"
-        
-        state.menu.plats.moules.title = "Mejillones frescos de 'Diana'"
-        state.menu.plats.moules.ingredients = "marinière o crema con vino de Córcega"
-        
-        state.menu.plats.lasagne.title = "Lasaña casera"
-        state.menu.plats.lasagne.ingredients = "sobre salsa de tomate"
-
-        state.menu.plats.saumon.title = "Filete de salmón"
-        state.menu.plats.saumon.ingredients = "salsa marinera, manzana triturada con cebollino, floretes de brócoli"
-
-        state.menu.pasta.section = "Pasta"
-
-        state.menu.pasta.truffe.title = "Linguini con crema de trufa de verano"
-
-        state.menu.pasta.fruitsdemer.title = "Linguini con marisco y salsa de tomate"
-        state.menu.pasta.fruitsdemer.ingredients = "gambas, vonzgole, moles, vieiras"
-
-        state.menu.pasta.carbonara.title = "Linguini con salsa carbonara"
-
-        state.menu.grillades.section = "A la parrilla"
-        state.menu.grillades.info = "Todas nuestras carnes a la parrilla se sirven con verduras frescas a la parrilla o con patatas fritas"
-
-        state.menu.grillades.entrecote.title = "Entrecot de ternera"
-
-        state.menu.grillades.chimichurri.title = "Filete de atún fresco 'Chimichurri' o Provençale"
-        state.menu.grillades.chimichurri.ingredients = "la salsa se sirve aparte"
-
-        state.menu.grillades.loup.title = "Lubina a la parrilla con hierbas"
-
-        state.menu.grillades.coquelet.title = "Gallo entero a la parrilla con cáscara"
-
-        state.menu.grillades.brochette.title = "Brocheta de langostinos grandes en escabeche"
-        state.menu.grillades.brochette.ingredients = "se sirve por separado"
-
-        state.menu.grillades.gigot.title = "Brocheta de pierna de cordero a la parrilla"
-        state.menu.grillades.gigot.ingredients = "con tomillo"
-        
-        state.menu.grillades.assiette.title = "Plato vegetariano"
-        state.menu.grillades.assiette.ingredients = "elección de verduras frescas del día a la plancha y patatas a elegir"
-
-        state.menu.grillades.sauce.title = "Salsa extra con pimienta o tomo corso"
-
-        state.menu.pizza.margherita.ingredients = "tomate, mozzarella"
-
-        state.menu.pizza.hawaii.ingredients = "tomate, mozzarella, jamón, piña"
-
-        state.menu.pizza.napolitana.ingredients = "tomate, mozzarella, alcaparras, anchoas, aceitunas negras"
-
-        state.menu.pizza.regina.ingredients = "tomate, mozzarella, jamón, champiñones, aceitunas negras"
-
-        state.menu.pizza.quattroformaggi.ingredients = "tomate, mozzarella, dom corso, cabra, parmesano"
-
-        state.menu.pizza.veggi.ingredients = "tomate, mozzarella, calabacín, berenjena, pimiento, champiñones"
-
-        state.menu.pizza.diavolo.ingredients = "tomate, mozzarella, aceitunas negras, chorizo"
-
-        state.menu.pizza.capricciosa.ingredients = "tomate, mozzarella, jamón, champiñones, aceitunas negras, chorizo"
-
-        state.menu.pizza.burrata.ingredients = "tomate, mozzarella, rúcula, tomates cherry, burrata"
-
-        state.menu.pizza.pescatore.ingredients = "tomate, mozzarella, atún, pepperoni, aceitunas negras"
-
-        state.menu.pizza.fruttidimare.ingredients = "tomate, mozzarella, marisco, aceitunas negras"
-
-        state.menu.pizza.jeanclaude.ingredients = "nata, tomate corso, mozzarella, huevo, trufa de verano"
-
-        state.menu.enfant.section = "Menú Infantil"
-
-        state.menu.enfant.beurrenature.title = "Pasta con mantequilla"
-
-        state.menu.enfant.steak.title ="Filete picado y patatas fritas"
-
-        state.menu.enfant.nuggets.title = "Nuggets de pollo frito"
-
-        state.menu.desserts.tartetatin.title = "Tarte Tatin, Chantilly o Pudding"
-
-        state.menu.desserts.tiramisu.title = "Tiramisú"
-
-        state.menu.desserts.brownie.title = "Brownie de chocolate y nueces"
-
-        state.menu.desserts.creme.title = "Crème brulée"
-
-        state.menu.desserts.tartecitron.title = "Tarta de limón y merengue"
 
         state.menu.desserts.pizzanutella.title = "Pizza Nutella"
 
@@ -582,7 +469,8 @@ const createStore = () => {
         state.menu.grillades.assiette.title = "Vegetarischer Teller"
         state.menu.grillades.assiette.ingredients = "Auswahl an frischem gegrilltem Gemüse des Tages und Kartoffeln nach Wahl"
 
-        state.menu.grillades.sauce.title = "Extra Soße mit Pfeffer oder korsischem Tome"
+        state.menu.grillades.sauce.title = "Extra Soße"
+        state.menu.grillades.sauce.ingredients = "mit Pfeffer oder korsischem Tome"
 
         state.menu.pizza.margherita.ingredients = "Tomate, Mozzarella"
 
@@ -633,45 +521,45 @@ const createStore = () => {
         state.menu.entrees.section = "Avviamento"
 
 
-        state.menu.entrees.goatcheesesalad.title = "Insalata calda di formaggio di capra"
-        state.menu.entrees.goatcheesesalad.ingredients = "in pasta sfoglia, lardoni, cipolle saltate"
+        state.menu.entrees.goatcheesesalad.title = "Insalata con formaggio di capra (caldo)"
+        state.menu.entrees.goatcheesesalad.ingredients = "in pasta sfoglia, bacon e cipolla stufata"
 
-        state.menu.entrees.cuttlefishsalad.title = "Insalata di polpo"
-        state.menu.entrees.cuttlefishsalad.ingredients = "con olive nere e vinaigrette alle erbe locali"
+        state.menu.entrees.cuttlefishsalad.title = "Insalata di calamari"
+        state.menu.entrees.cuttlefishsalad.ingredients = "con olive nere e vinaigrette alle erbe corse"
 
-        state.menu.entrees.tomatosalad.title = "Insalata di pomodoro 'cuore di manzo'"
-        state.menu.entrees.tomatosalad.ingredients = "con burrata, pesto di basilico"
+        state.menu.entrees.tomatosalad.title = "Insalata Caprese"
+        state.menu.entrees.tomatosalad.ingredients = "con burrata, pomodoro 'cuore di bue' e pesto"
         
-        state.menu.entrees.caesarsalad.title = "Caesar Salad"
-        state.menu.entrees.caesarsalad.ingredients = "con petto di pollo, crostini, parmigiano"
+        state.menu.entrees.caesarsalad.title = "Insalata Cesare"
+        state.menu.entrees.caesarsalad.ingredients = "con petto di pollo, croutons e parmigiano"
 
-        state.menu.entrees.tatar.title = "Tartara di tonno fresco"
-        state.menu.entrees.tatar.ingredients = "con spezie locali, condimento orientale"
+        state.menu.entrees.tatar.title = "Tartare di tonno fresco"
+        state.menu.entrees.tatar.ingredients = "con spezie e vinaigrette orientale"
 
         state.menu.plats.section = "Piatti principali"
 
 
-        state.menu.plats.saute.title = "Sauté di vitello corso"
-        state.menu.plats.saute.ingredients = "al mirto, mousseline di mele al tartufo estivo"
+        state.menu.plats.saute.title = "Spezzatino di vitello"
+        state.menu.plats.saute.ingredients = "al mirto con purè di patate al tartufo"
 
-        state.menu.plats.filet.title = "Filetto di Saint-Pierre"
-        state.menu.plats.filet.ingredients = "zmela schiacciata con erba cipollina, burro al limone, cimette di broccoli"
+        state.menu.plats.filet.title = "Filetto di San Pietro"
+        state.menu.plats.filet.ingredients = "con pure di patate con erba cipollina, burro al limone e cime di broccoli"
         
-        state.menu.plats.moules.title = "Cozze fresche di 'Diana'"
-        state.menu.plats.moules.ingredients = "marinière o crema con vino corso"
+        state.menu.plats.moules.title = "Cozze"
+        state.menu.plats.moules.ingredients = "Marinara / crema e pecorino corso"
         
-        state.menu.plats.lasagne.title = "Lasagne fatte in casa"
-        state.menu.plats.lasagne.ingredients = "su salsa di pomodoro"
+        state.menu.plats.lasagne.title = "Lasagne Bolognese"
+        state.menu.plats.lasagne.ingredients = " "
 
-        state.menu.plats.saumon.title = "Bistecca di salmone"
-        state.menu.plats.saumon.ingredients = "salsa marinière, mela schiacciata con erba cipollina, cimette di broccoli"
+        state.menu.plats.saumon.title = "Trancio di salmone"
+        state.menu.plats.saumon.ingredients = "in salsa marinata purè di patate con erbe cipollina e cime di broccoli"
 
-        state.menu.pasta.section = "Pasta"
+        state.menu.pasta.section = 'Pasta "Rummo"'
 
-        state.menu.pasta.truffe.title = "Linguine con crema di tartufo estivo"
+        state.menu.pasta.truffe.title = "Linguine con crema di tartufo/funghi"
 
-        state.menu.pasta.fruitsdemer.title = "Linguine con frutti di mare e salsa di pomodoro"
-        state.menu.pasta.fruitsdemer.ingredients = "gamberi, vonzgole, moli, capesante"
+        state.menu.pasta.fruitsdemer.title = "Linguine ai frutti di mare"
+        state.menu.pasta.fruitsdemer.ingredients = "Gamberi, vongole, cozze, capesante"
 
         state.menu.pasta.carbonara.title = "Linguine alla carbonara"
 
@@ -680,23 +568,24 @@ const createStore = () => {
 
         state.menu.grillades.entrecote.title = "Entrecote di manzo"
 
-        state.menu.grillades.chimichurri.title = "Bistecca di tonno fresco 'Chimichurri' o Provenzale"
-        state.menu.grillades.chimichurri.ingredients = "la salsa è servita a lato"
+        state.menu.grillades.chimichurri.title = "Trancio di Tonno"
+        state.menu.grillades.chimichurri.ingredients = "con salsa chimichurri / provenzale servito a lato"
 
-        state.menu.grillades.loup.title = "Branzino alla griglia con erbe"
+        state.menu.grillades.loup.title = "Branzino alle erbe"
 
-        state.menu.grillades.coquelet.title = "Gallo intero alla griglia nel guscio"
+        state.menu.grillades.coquelet.title = "Galletto alla diavola"
 
-        state.menu.grillades.brochette.title = "piedino di gamberoni in marinata"
+        state.menu.grillades.brochette.title = "Spiedini code di Gambero marinate"
         state.menu.grillades.brochette.ingredients = "servito separatamente"
 
-        state.menu.grillades.gigot.title = "SSpiedino di coscia d'agnello alla griglia"
+        state.menu.grillades.gigot.title = "Spiedino d'agnello"
         state.menu.grillades.gigot.ingredients = "con timo"
         
-        state.menu.grillades.assiette.title = "Piatto vegetariano"
-        state.menu.grillades.assiette.ingredients = "scelta di verdure fresche grigliate del giorno e patate a scelta"
+        state.menu.grillades.assiette.title = "Piatto Vegetariano"
+        state.menu.grillades.assiette.ingredients = "con verdure del giorno e patate"
 
-        state.menu.grillades.sauce.title = "Salsa extra con pepe o tomo corso"
+        state.menu.grillades.sauce.title = "Supplemento salsa al pepe / Tome corse"
+        state.menu.grillades.sauce.ingredients = "crema e pecorino corso"
 
         state.menu.pizza.margherita.ingredients = "pomodoro, mozzarella"
 
@@ -752,7 +641,7 @@ const createStore = () => {
         state.menu.entrees.cuttlefishsalad.ingredients = "aux olives noires et vinaigrette aux herbes du pays"
 
         state.menu.entrees.tomatosalad.title = "Salade de tomate « Coeur de boeuf »"
-        state.menu.entrees.tomatosalad.ingredients = "cà la Burrata, pesto de basilic"
+        state.menu.entrees.tomatosalad.ingredients = "à la Burrata, pesto de basilic"
         
         state.menu.entrees.caesarsalad.title = "Salade César"
         state.menu.entrees.caesarsalad.ingredients = "au blanc de poulet, croutons, parmesan"
@@ -763,24 +652,24 @@ const createStore = () => {
         state.menu.plats.section = "Plats"
 
 
-        state.menu.plats.saute.title = "Sauté de veau corse"
-        state.menu.plats.saute.ingredients = "à la Myrte, pomme mousseline à la « truffe d'été »"
+        state.menu.plats.saute.title = "Sauté de veau corse à la Myrte"
+        state.menu.plats.saute.ingredients = "pomme mousseline à la « truffe d'été »"
 
         state.menu.plats.filet.title = "Filet de Saint-Pierre"
         state.menu.plats.filet.ingredients = "pomme écrasées à la ciboulette, beurre blanc citronné, fleurettes de brocoli"
         
-        state.menu.plats.moules.title = "Moules fraîche de 'Diana'"
+        state.menu.plats.moules.title = "Moules fraîche"
         state.menu.plats.moules.ingredients = "Marinière ou crème à la tome Corse"
         
-        state.menu.plats.lasagne.title = "Lasagne maison"
-        state.menu.plats.lasagne.ingredients = "sur sauce tomate"
+        state.menu.plats.lasagne.title = "Lasagne bolognaise"
+        state.menu.plats.lasagne.ingredients = " "
 
         state.menu.plats.saumon.title = "Pavé de saumon"
         state.menu.plats.saumon.ingredients = "sauce marinière, pomme écrasées à la ciboulette, fleurettes de brocoli"
 
-        state.menu.pasta.section = "Pasta"
+        state.menu.pasta.section = "Pâtes « Rummo » "
 
-        state.menu.pasta.truffe.title = "Linguini à la crème de Truffe d'été"
+        state.menu.pasta.truffe.title = "Linguini à la crème de Truffes/Champignons"
 
         state.menu.pasta.fruitsdemer.title = "Linguini aux fruits de mer à la sauce tomate"
         state.menu.pasta.fruitsdemer.ingredients = "Crevettes, Vonzgole, Moles, Noix de Saint-Jacques"
@@ -802,8 +691,8 @@ const createStore = () => {
         state.menu.grillades.brochette.title = "Brochette de grosses crevettes"
         state.menu.grillades.brochette.ingredients = "en marinade"
 
-        state.menu.grillades.gigot.title = "Brochette de gigot d'agneau grillée"
-        state.menu.grillades.gigot.ingredients = "au thym"
+        state.menu.grillades.gigot.title = "Brochette de gigot d'agneau"
+        state.menu.grillades.gigot.ingredients = "grillée au thym"
         
         state.menu.grillades.assiette.title = "Assiette végétarienne"
         state.menu.grillades.assiette.ingredients = "Assortiment de légumes frais du jour grillés et pommes de terre au choix"
@@ -832,7 +721,7 @@ const createStore = () => {
 
         state.menu.pizza.fruttidimare.ingredients = "Tomate, Mozzarella, Fruits de mer, Olives noires"
 
-        state.menu.pizza.jeanclaude.ingredients = "Crème, Tome Corse, Mozzarella, Œuf, Truffe d'été"
+        state.menu.pizza.jeanclaude.ingredients = "Crème, Tome Corse, Mozzarella, Œuf, Crème de Truffes/Champignons"
 
         state.menu.enfant.section = "Menu Enfant"
 
@@ -855,7 +744,7 @@ const createStore = () => {
         state.menu.desserts.pizzanutella.title = "Pizza Nutella"
       },
     },
-  })
+},)
 }
 
 export default createStore
