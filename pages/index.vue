@@ -40,7 +40,7 @@ export default {};
 }
 
 .overlay {
-  position: fixed; /* Sit on top of the page content */
+  position: relative; /* Sit on top of the page content */
   width: 100vw; /* Full width (cover the whole page) */
   height: 100vh; /* Full height (cover the whole page) */
   top: 0;
