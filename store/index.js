@@ -71,7 +71,7 @@ const createStore = () => {
           },
         },
         pasta: {
-          section: "Pasta « Rummo » ",
+          section: "Pates « Rummo » ",
           truffe: {
             title: "Linguini à la crème de Truffes/Champignons",
             art: "🌱",
@@ -319,7 +319,7 @@ const createStore = () => {
         state.menu.plats.saumon.title = "Salmon steak"
         state.menu.plats.saumon.ingredients = "marinated sauce, mashed potatoes with chives, broccoli florets"
 
-        state.menu.pasta.section = "Pasta"
+        state.menu.pasta.section = "Pasta 'Rummo'"
 
         state.menu.pasta.truffe.title = "Linguini with truffle cream and mushroom"
 
@@ -667,7 +667,7 @@ const createStore = () => {
         state.menu.plats.saumon.title = "Pavé de saumon"
         state.menu.plats.saumon.ingredients = "sauce marinière, pomme écrasées à la ciboulette, fleurettes de brocoli"
 
-        state.menu.pasta.section = "Pasta « Rummo » "
+        state.menu.pasta.section = "Pates « Rummo » "
 
         state.menu.pasta.truffe.title = "Linguini à la crème de Truffes/Champignons"
 
