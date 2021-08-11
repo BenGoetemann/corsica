@@ -13,9 +13,7 @@
             quibusdam pariatur maxime cupiditate placeat quas nulla, quia
             numquam sed, officiis quam suscipit soluta? Rerum et accusamus
             placeat quas recusandae. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ex a quibusdam pariatur maxime cupiditate placeat
-            quas nulla, quia numquam sed, officiis quam suscipit soluta? Rerum
-            et accusamus placeat quas recusandae.
+            adipisicing elit.
           </p>
           <nuxt-link class="menu-link" to="/card">
             <button class="btn">Menu</button>
@@ -75,8 +73,7 @@ export default {};
   justify-content: space-around;
   padding: 8%;
   text-align: center;
-  border: rgb(215, 75, 75) 10px solid
-}
+  }
 
 .brand {
   font-family: "Style Script", cursive;
