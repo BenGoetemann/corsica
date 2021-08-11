@@ -17,9 +17,9 @@
             quas nulla, quia numquam sed, officiis quam suscipit soluta? Rerum
             et accusamus placeat quas recusandae.
           </p>
-          <button class="btn">
-            <nuxt-link class="menu-link" to="/card">Menu</nuxt-link>
-          </button>
+          <nuxt-link class="menu-link" to="/card">
+            <button class="btn">Menu</button>
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -75,6 +75,7 @@ export default {};
   justify-content: space-around;
   padding: 8%;
   text-align: center;
+  border: rgb(215, 75, 75) 10px solid
 }
 
 .brand {
@@ -92,9 +93,7 @@ export default {};
   width: 120px;
   height: 50px;
   background: rgb(90, 164, 255);
-}
-
-.menu-link {
   color: white;
+  font-weight: bold;
 }
 </style>

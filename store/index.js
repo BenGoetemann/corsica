@@ -71,7 +71,7 @@ const createStore = () => {
           },
         },
         pasta: {
-          section: "Pâtes « Rummo » ",
+          section: "Pasta « Rummo » ",
           truffe: {
             title: "Linguini à la crème de Truffes/Champignons",
             art: "🌱",
@@ -283,77 +283,77 @@ const createStore = () => {
     mutations: {
       en(state) {
 
-        state.menu.entrees.section = "Starters"
+        state.menu.entrees.section = "Entrees"
 
 
-        state.menu.entrees.goatcheesesalad.title = "Warm goat's cheese salad"
-        state.menu.entrees.goatcheesesalad.ingredients = "in brick pastry, lardons, sautéed onions"
+        state.menu.entrees.goatcheesesalad.title = "Hot goat cheese salad"
+        state.menu.entrees.goatcheesesalad.ingredients = "in brick pastry, bacon and sauted oinions"
 
         state.menu.entrees.cuttlefishsalad.title = "Cuttlefish salad"
-        state.menu.entrees.cuttlefishsalad.ingredients = "with black olives and local herbs vinaigrette"
+        state.menu.entrees.cuttlefishsalad.ingredients = "with black olives and local herb vinaigrette"
 
-        state.menu.entrees.tomatosalad.title = "Tomato salad 'Beef heart'"
-        state.menu.entrees.tomatosalad.ingredients = "with Burrata cheese, basil pesto"
+        state.menu.entrees.tomatosalad.title = "'Beef heart' Tomato salad"
+        state.menu.entrees.tomatosalad.ingredients = "with burrata basil pesto"
         
-        state.menu.entrees.caesarsalad.title = "Caesar salad"
-        state.menu.entrees.caesarsalad.ingredients = "with chicken breast, croutons, parmesan cheese"
+        state.menu.entrees.caesarsalad.title = "Chicken breast Cesar salad"
+        state.menu.entrees.caesarsalad.ingredients = "with croutons and parmesan"
 
-        state.menu.entrees.tatar.title = "Tartar of fresh tuna"
-        state.menu.entrees.tatar.ingredients = "with local spices, oriental dressing"
+        state.menu.entrees.tatar.title = "Fresh tuna tartare"
+        state.menu.entrees.tatar.ingredients = "with local spices, oriental vinaigrette"
 
-        state.menu.plats.section = "Dishes"
+        state.menu.plats.section = "Plats"
 
 
-        state.menu.plats.saute.title = "Sauté of Corsican vea"
-        state.menu.plats.saute.ingredients = "with Myrtle, mousseline apple with summer truffle"
+        state.menu.plats.saute.title = "Veal sauted"
+        state.menu.plats.saute.ingredients = "with myrte mousseline potatoes truffle cream"
 
-        state.menu.plats.filet.title = "Fillet of Saint-Pierre"
-        state.menu.plats.filet.ingredients = "crushed apple with chives, lemon butter, broccoli florets"
+        state.menu.plats.filet.title = "Saint Pierre filet"
+        state.menu.plats.filet.ingredients = "crushed potatoes with chives, lemon white butter, broccoli floret"
         
-        state.menu.plats.moules.title = "Fresh mussels from 'Diana'"
-        state.menu.plats.moules.ingredients = "Marinière or cream with Corsican tome"
+        state.menu.plats.moules.title = "Fresh mussels"
+        state.menu.plats.moules.ingredients = "marinated or Corsican tome and pecorino cheese"
         
-        state.menu.plats.lasagne.title = "Homemade lasagne"
-        state.menu.plats.lasagne.ingredients = "on tomato sauce"
+        state.menu.plats.lasagne.title = "Bolognese lasagna"
+        state.menu.plats.lasagne.ingredients = " "
 
         state.menu.plats.saumon.title = "Salmon steak"
-        state.menu.plats.saumon.ingredients = "marinière sauce, crushed apple with chives, broccoli florets"
+        state.menu.plats.saumon.ingredients = "marinated sauce, mashed potatoes with chives, broccoli florets"
 
         state.menu.pasta.section = "Pasta"
 
-        state.menu.pasta.truffe.title = "Linguini with summer truffle cream"
+        state.menu.pasta.truffe.title = "Linguini with truffle cream and mushroom"
 
-        state.menu.pasta.fruitsdemer.title = "Seafood linguini with tomato sauce"
+        state.menu.pasta.fruitsdemer.title = "Linguini Seafood with tomato sauce"
         state.menu.pasta.fruitsdemer.ingredients = "Shrimps, Vonzgole, Moles, Scallops"
 
-        state.menu.pasta.carbonara.title = "Linguini with carbonara sauce "
+        state.menu.pasta.carbonara.title = "Linguini à la carbonara"
         state.menu.pasta.carbonara.ingredients = " "
 
         state.menu.grillades.section = "Grill"
         state.menu.grillades.info = "All our grilled meats are served with freshly grilled vegetables or chips"
 
-        state.menu.grillades.entrecote.title = "Entrecote of beef"
+        state.menu.grillades.entrecote.title = "Beef steak"
 
-        state.menu.grillades.chimichurri.title = "Fresh tuna steak 'Chimichurri' or Provençale"
-        state.menu.grillades.chimichurri.ingredients = "Sauce served on the side"
+        state.menu.grillades.chimichurri.title = "Tuna Slice with chimichurri or provençal"
+        state.menu.grillades.chimichurri.ingredients = "sauce served separately "
 
-        state.menu.grillades.loup.title = "Grilled bass with herbs"
+        state.menu.grillades.loup.title = "Grilled sea bass fish with herbs"
         state.menu.grillades.loup.ingredients = " "
 
-        state.menu.grillades.coquelet.title = "Whole grilled cockerel in a shell"
+        state.menu.grillades.coquelet.title = "Roasted cockerel in crapaudine mode"
         state.menu.grillades.coquelet.ingredients = " "
 
-        state.menu.grillades.brochette.title = "Skewer of large prawns in marinade"
+        state.menu.grillades.brochette.title = "Large shrimp skewer marinated"
         state.menu.grillades.brochette.ingredients = "served separately"
 
-        state.menu.grillades.gigot.title = "Skewer of leg of lamb grilled"
+        state.menu.grillades.gigot.title = "Lamb skewer"
         state.menu.grillades.gigot.ingredients = "with thyme"
         
         state.menu.grillades.assiette.title = "Vegetarian plate"
-        state.menu.grillades.assiette.ingredients = "Assortment of fresh grilled vegetables of the day and choice of potatoes"
+        state.menu.grillades.assiette.ingredients = "fresh vegetables mix and potatoes"
 
-        state.menu.grillades.sauce.title = "Extra sauce"
-        state.menu.grillades.sauce.ingredients = "with pepper or Corsican Tome"
+        state.menu.grillades.sauce.title = "Sauce in addition"
+        state.menu.grillades.sauce.ingredients = "Pepper or Corsican Tome"
 
 
         state.menu.pizza.margherita.ingredients = "Tomato, Mozzarella"
@@ -382,17 +382,17 @@ const createStore = () => {
 
         state.menu.enfant.section = "For Kids"
 
-        state.menu.enfant.beurrenature.title = "Pasta with butter "
+        state.menu.enfant.beurrenature.title = "Plain butter pasta"
 
-        state.menu.enfant.steak.title ="Chopped steak and chips"
+        state.menu.enfant.steak.title ="Minced steak and fries"
 
-        state.menu.enfant.nuggets.title = "Fried chicken nuggets"
+        state.menu.enfant.nuggets.title = "Fried chicken nuggets and fries"
 
-        state.menu.desserts.tartetatin.title = "Tarte Tatin, chantilly or custard"
+        state.menu.desserts.tartetatin.title = "Tatin Tart hipped cream or custard"
 
         state.menu.desserts.tiramisu.title = "Tiramisu"
 
-        state.menu.desserts.brownie.title = "Chocolate and pecan brownie"
+        state.menu.desserts.brownie.title = "Chocolate and pecan brownies"
 
         state.menu.desserts.creme.title = "Crème brulée"
 
@@ -667,7 +667,7 @@ const createStore = () => {
         state.menu.plats.saumon.title = "Pavé de saumon"
         state.menu.plats.saumon.ingredients = "sauce marinière, pomme écrasées à la ciboulette, fleurettes de brocoli"
 
-        state.menu.pasta.section = "Pâtes « Rummo » "
+        state.menu.pasta.section = "Pasta « Rummo » "
 
         state.menu.pasta.truffe.title = "Linguini à la crème de Truffes/Champignons"
 
