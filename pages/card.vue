@@ -308,7 +308,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("~/assets/images/background-2.jpeg") no-repeat fixed;
+  background: url("~/assets/images/background-2.jpeg") fixed;
   background-position: center center;
   /* background-repeat: no-repeat;
   background-attachment: fixed; */
