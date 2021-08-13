@@ -308,10 +308,10 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("~assets/images/background-2.jpeg");
+  background: url("~/assets/images/background-2.jpeg") no-repeat fixed;
   background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
   background-size: cover;
   background-color: #464646;
 }
