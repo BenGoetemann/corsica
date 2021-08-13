@@ -307,7 +307,8 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
   align-items: center;
   background: url("~/assets/images/background-2.jpeg");
   background-size: cover;
