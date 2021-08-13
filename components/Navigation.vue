@@ -62,6 +62,7 @@ export default {
 
 .navbar.navbar-light.bg-light {
   background-color: rgb(255, 255, 255) !important;
+    z-index:10000;
   
 }
 

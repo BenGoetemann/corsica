@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="footer">
       <div class="link-wrapper">
           <nuxt-link class="tab" to="#">Datenschutz</nuxt-link>
           <nuxt-link class="tab" to="#">Impressum</nuxt-link>
@@ -15,6 +15,10 @@ export default {
 
 <style>
 
+.footer {
+    z-index:100000;
+}
+
 .link-wrapper {
     display: flex;
     flex-direction: row;
@@ -24,6 +28,7 @@ export default {
     height: 40px;
     background: white;
     text-decoration: none;
+
 }
 
 .tab {

@@ -303,18 +303,33 @@ export default {
 </script>
 
 <style>
-.background {
+/* .background {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
   align-items: center;
   background: url("~/assets/images/background-2.jpeg");
+  height: 100vh;
+  width: 100vw;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
+} */
+
+.background:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:0; /* needed to keep in the background */
+      background: url("~/assets/images/background-2.jpeg") center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 .container {
@@ -357,5 +372,9 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+}
+
+section {
+  z-index:100;
 }
 </style>
