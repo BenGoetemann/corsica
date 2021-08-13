@@ -309,11 +309,11 @@ export default {
   justify-content: center;
   align-items: center;
   background: url("~/assets/images/background-2.jpeg") fixed;
-  background-position: center center;
-  /* background-repeat: no-repeat;
-  background-attachment: fixed; */
   background-size: cover;
-  background-color: #464646;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-color: #464646; */
 }
 
 .container {
