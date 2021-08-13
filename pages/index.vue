@@ -32,7 +32,7 @@ export default {};
 
 .responsive-background {
   background-image: url("../assets/images/background-2.jpeg") no-repeat fixed;
-  background-position: center center;
+  /* background-position: center center; */
   background-size: cover;
   background-color: #464646;
   width: 100vw;
