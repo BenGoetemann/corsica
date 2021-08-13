@@ -31,7 +31,7 @@ export default {};
 @import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Style+Script&display=swap");
 
 .responsive-background {
-  background-image: url("~assets/images/background-2.jpeg");
+  background-image: url("../assets/images/background-2.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
