@@ -2,22 +2,21 @@
   <div class="responsive-background">
     <div class="overlay">
       <div class="start">
+        <div class="spacer"></div>
         <div class="callto">
           <div>
             <h1 class="brand">A Conca Marina</h1>
             <h2 class="claude">chez Jean Claude</h2>
-          </div>
+            <p class="intro-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a
-            quibusdam pariatur maxime cupiditate placeat quas nulla, quia
-            numquam sed, officiis quam suscipit soluta? Rerum et accusamus
-            placeat quas recusandae. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit.
-          </p>
-          <nuxt-link class="menu-link" to="/card">
-            <button class="btn">Menu</button>
-          </nuxt-link>
+            <div class="languages">
+              <nuxt-link class="btn" to="card"><div @click="$store.commit('en')" class="flag">🇬🇧</div></nuxt-link>
+              <nuxt-link class="btn" to="card"><div @click="$store.commit('fr')" class="flag">🇫🇷</div></nuxt-link>
+              <nuxt-link class="btn" to="card"><div @click="$store.commit('it')" class="flag">🇮🇹</div></nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -40,6 +39,31 @@ export default {};
   background-color: #464646;
   width: 100vw;
   height: 100vh;
+}
+
+.btn {
+  padding: 4px;
+  background: rgb(233, 233, 233);
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.016);
+}
+
+.languages {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flag {
+  font-size: 2rem;
 }
 
 .overlay {
@@ -65,15 +89,21 @@ export default {};
 
 .callto {
   width: 90%;
-  height: 93%;
-  background: rgba(255, 255, 255, 0.899);
+  height: 44%;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.016);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  padding: 8%;
+  justify-content: center;
+  padding: 4%;
   text-align: center;
-  }
+}
+
+.spacer {
+  height: 49vh;
+}
 
 .brand {
   font-family: "Style Script", cursive;
@@ -86,11 +116,11 @@ export default {};
   margin: 0;
 }
 
-.btn {
-  width: 120px;
-  height: 50px;
-  background: rgb(90, 164, 255);
-  color: white;
-  font-weight: bold;
+.intro-text {
+  margin-top: 10px;
 }
+
+
+
+
 </style>

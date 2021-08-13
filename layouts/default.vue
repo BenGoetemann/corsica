@@ -1,23 +1,32 @@
 <template>
   <div class="bg">
     <Nuxt />
+    <Footer />
   </div>
+  
 </template>
 
 <script>
+import Navigation from "../components/Navigation.vue";
+import Footer from "../components/Footer.vue";
+
 
 export default {
-}
+  components: {
+    Navigation,
+    Footer
+  },
+};
 </script>
 
 
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500&display=swap");
 
 html {
-  font-family: Poppins, "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Poppins, "Quicksand", "Source Sans Pro", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -34,9 +43,8 @@ html {
   margin: 0;
 }
 
-
-.bg{
-    background-color: #F8F8F8;
+.bg {
+  background-color: #f8f8f8;
 }
 
 .button--green {
@@ -79,11 +87,9 @@ h2 {
   margin-bottom: 0;
 }
 
-
 h3 {
   font-size: 20px;
   margin-top: 6px;
   margin-bottom: 0;
 }
-
 </style>

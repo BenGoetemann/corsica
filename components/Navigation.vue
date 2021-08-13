@@ -32,7 +32,7 @@
             $store.state.menu.desserts.section
           }}</b-nav-item>
 
-          <!-- <div class="languages">
+          <div class="languages">
             <b-nav-item @click="$store.commit('en')" class="flag" href="#"
               >🇬🇧</b-nav-item
             >
@@ -42,10 +42,8 @@
             <b-nav-item @click="$store.commit('it')" class="flag" href="#"
               >🇮🇹</b-nav-item
             >
-            <b-nav-item @click="$store.commit('de')" class="flag" href="#"
-              >🇩🇪</b-nav-item
-            >
-          </div> -->
+
+          </div>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -58,7 +56,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Style+Script&display=swap');
 
@@ -80,6 +78,8 @@ export default {
 .languages {
   display: flex;
   flex-direction: row;
+  justify-content: left;
+  margin-top: 0px;
 }
 
 .flag {
