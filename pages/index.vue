@@ -52,6 +52,14 @@ export default {};
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.016);
 }
 
+.btn:hover {
+  background: rgb(193, 193, 193);
+}
+
+.btn:focus {
+  background: rgb(145, 145, 145);
+}
+
 .languages {
     margin-top: 1.5rem;
     display: flex;

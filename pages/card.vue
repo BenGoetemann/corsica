@@ -6,20 +6,20 @@
         <section id="starters">
           <h2>{{ $store.state.menu.entrees.section }}</h2>
           <Card
-            :pic="require('../assets/images/pizza.jpeg')"
+            :pic="require('../assets/images/food/saladedichevre.JPG')"
             :title="$store.state.menu.entrees.goatcheesesalad.title"
             :art="$store.state.menu.entrees.goatcheesesalad.art"
             :ingredients="$store.state.menu.entrees.goatcheesesalad.ingredients"
             :price="$store.state.menu.entrees.goatcheesesalad.price"
           />
           <Card
-            :pic="require('../assets/images/burger.jpeg')"
             :title="$store.state.menu.entrees.cuttlefishsalad.title"
             :art="$store.state.menu.entrees.cuttlefishsalad.art"
             :ingredients="$store.state.menu.entrees.cuttlefishsalad.ingredients"
             :price="$store.state.menu.entrees.cuttlefishsalad.price"
           />
           <Card
+          :pic="require('../assets/images/food/saladeburratapomodoro.JPG')"
             :title="$store.state.menu.entrees.tomatosalad.title"
             :art="$store.state.menu.entrees.tomatosalad.art"
             :ingredients="$store.state.menu.entrees.tomatosalad.ingredients"
@@ -32,6 +32,7 @@
             :price="$store.state.menu.entrees.caesarsalad.price"
           />
           <Card
+            :pic="require('../assets/images/food/tartaredethon.JPG')"
             :title="$store.state.menu.entrees.tatar.title"
             :art="$store.state.menu.entrees.tatar.art"
             :ingredients="$store.state.menu.entrees.tatar.ingredients"
@@ -48,6 +49,7 @@
             :price="$store.state.menu.plats.saute.price"
           />
           <Card
+            :pic="require('../assets/images/food/filetsanpierre.JPG')"
             :title="$store.state.menu.plats.filet.title"
             :art="$store.state.menu.plats.filet.art"
             :ingredients="$store.state.menu.plats.filet.ingredients"
@@ -82,6 +84,7 @@
             :price="$store.state.menu.pasta.truffe.price"
           />
           <Card
+            :pic="require('../assets/images/food/pastafrutdemar.JPG')"
             :title="$store.state.menu.pasta.fruitsdemer.title"
             :art="$store.state.menu.pasta.fruitsdemer.art"
             :ingredients="$store.state.menu.pasta.fruitsdemer.ingredients"
@@ -199,6 +202,7 @@
             :price="$store.state.menu.pizza.capricciosa.price"
           />
           <Card
+            :pic="require('../assets/images/food/pizzaburrata.JPG')"
             :title="$store.state.menu.pizza.burrata.title"
             :art="$store.state.menu.pizza.burrata.art"
             :ingredients="$store.state.menu.pizza.burrata.ingredients"
