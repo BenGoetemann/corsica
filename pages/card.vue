@@ -120,12 +120,14 @@
             :price="$store.state.menu.grillades.loup.price"
           />
           <Card
+            :pic="require('../assets/images/food/coquelet.jpeg')"
             :title="$store.state.menu.grillades.coquelet.title"
             :art="$store.state.menu.grillades.coquelet.art"
             :ingredients="$store.state.menu.grillades.coquelet.ingredients"
             :price="$store.state.menu.grillades.coquelet.price"
           />
           <Card
+            :pic="require('../assets/images/food/brochette.jpeg')"
             :title="$store.state.menu.grillades.brochette.title"
             :art="$store.state.menu.grillades.brochette.art"
             :ingredients="$store.state.menu.grillades.brochette.ingredients"
@@ -184,6 +186,7 @@
             :price="$store.state.menu.pizza.quattroformaggi.price"
           />
           <Card
+            :pic="require('../assets/images/food/vegan.jpeg')"
             :title="$store.state.menu.pizza.veggi.title"
             :art="$store.state.menu.pizza.veggi.art"
             :ingredients="$store.state.menu.pizza.veggi.ingredients"
