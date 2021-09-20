@@ -42,6 +42,9 @@
             <b-nav-item @click="$store.commit('it')" class="flag" href="#"
               >🇮🇹</b-nav-item
             >
+             <b-nav-item @click="$store.commit('de')" class="flag" href="#"
+              >🇩🇪</b-nav-item
+            >
 
           </div>
         </b-navbar-nav>

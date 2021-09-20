@@ -8,13 +8,14 @@
             <h1 class="brand">A Conca Marina</h1>
             <h2 class="claude">chez Jean Claude</h2>
             <p class="intro-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Un accueil chaleureux!
             </p>
 
             <div class="languages">
               <nuxt-link class="btn" to="card"><div @click="$store.commit('en')" class="flag">🇬🇧</div></nuxt-link>
               <nuxt-link class="btn" to="card"><div @click="$store.commit('fr')" class="flag">🇫🇷</div></nuxt-link>
               <nuxt-link class="btn" to="card"><div @click="$store.commit('it')" class="flag">🇮🇹</div></nuxt-link>
+              <nuxt-link class="btn" to="card"><div @click="$store.commit('de')" class="flag">🇩🇪</div></nuxt-link>
             </div>
           </div>
         </div>
